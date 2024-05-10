@@ -52,8 +52,8 @@ The MongoDB should have the encrypted users collection.
 ```users.json
     {
      "users":[
-         {"username":"Encrypted Username","password":"Encrypted Password"},
-         {"username":"Encrypted Username","password":"Encrypted Password"},
+         {"username":"Encrypted Username", "isAdmin": true, "password":"Encrypted Password"},
+         {"username":"Encrypted Username", "isAdmin": true, "password":"Encrypted Password"},
          .................................................................
          ]
     }

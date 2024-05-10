@@ -1,1 +1,19 @@
-{"users": [{"username": "gAAAAABmPeMv5oePJjEKoWcYMcgxmwOvqw19-E0hscyP648xfWAPU-k3T0COUEfciGLMKaB2MRV0UULYrS7YbhEran1PaLIQCQ==", "isAdmin": true, "password": "$2b$12$VQCXrHBmXvspKuf31HsE6u1bNktuZIrw/rcWXgabzzmC3gozwvCh6"}, {"username": "gAAAAABmPeMvBNKWRru9vyINVS9J24E6mrAcdODT-os5m-QB6WstDx6uA3tNmMHwNLDTthgmE1O2TdobXhubhj6aL7bUb3n2qw==", "isAdmin": true, "password": "$2b$12$E/t1/MxfltMpn1q3J3Tjq.ASu2PCbjavhPwwuIFFJI3kB40jQKl7i"}, {"username": "gAAAAABmPeMvrKaWtjKF6gUW8a0R8_9J7iJPTb6Agq3Rv10BF8h0VRF3U_dSh9_9Y1yF4XaP96SBjorzEHKkGeXeMqBW2xNm1w==", "isAdmin": true, "password": "$2b$12$D4JZv5hSkg5duOFA4N8r3ucOXracS29he/VKTyqDxd9H0nsaFBreq"}]}
+{
+    "users": [
+        {
+            "username": "admin",
+            "isAdmin": true,
+            "password": "password"
+        },
+        {
+            "username": "username1",
+            "isAdmin": true,
+            "password": "Password1"
+        },
+        {
+            "username": "username2",
+            "isAdmin": true,
+            "password": "Password2"
+        }
+    ]
+}
