@@ -26,14 +26,14 @@
 
     `python encryption.py`
 
-6. The plaintext username and password will be encrypted for use in the MongoDB collection. One user should have the admin right as illustrated below:
+6. The plaintext username and password will be encrypted for use in the MongoDB collection. The users should have the admin right using isAdmin property as illustrated below:
 
 ```users.json
     {
      "users":[
-         {"username":"admin","password":"password"},
-         {"username":"username1","password":"Password1"},
-         {"username":"username2","password":"Password2"},
+         {"username":"admin", "isAdmin": true, "password":"password"},
+         {"username":"username1", "isAdmin": true, "password":"Password1"},
+         {"username":"username2", "isAdmin": true, "password":"Password2"},
          .............................................
         ]
     }
